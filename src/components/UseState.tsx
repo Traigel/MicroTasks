@@ -12,6 +12,6 @@ export const UseState = () => {
     return <div>
         <div>{a}</div>
         <button onClick={onClickHandler}>Number+</button>
-        <button onClick={()=>setA(a = 0)}>0</button>
+        <button onClick={()=>setA(a = 0)}>Number-0</button>
     </div>
 };
