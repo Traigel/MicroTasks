@@ -5,7 +5,7 @@ import {Body} from "./components/Body";
 import {Footer} from "./components/Footer";
 import {NewComponent} from "./components/NewComponent";
 import { Button } from './components/Button';
-import {log} from "util";
+import {UseState} from "./components/UseState";
 
 const App = () => {
 
@@ -25,6 +25,7 @@ const App = () => {
         <Button name={'One button'} callBack={()=>buttonFoo('Vova', 28)}/>
         <Button name={'Two button'} callBack={()=>buttonFoo('Alex', 23)}/>
         <Button name={'Stop'} callBack={buttonStopFoo}/>
+        <UseState/>
     </div>;
 }
 
