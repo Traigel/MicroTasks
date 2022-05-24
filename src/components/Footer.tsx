@@ -5,7 +5,7 @@ type FooterPropsType = {
 }
 
 export const Footer = (props: FooterPropsType) => {
-    return <div className="App">
+    return <div>
         {props.titleFoFooter}
     </div>
 };

@@ -5,7 +5,7 @@ type BodyPropsType = {
 }
 
 export const Body = (props: BodyPropsType) => {
-    return <div className="App">
+    return <div>
         {props.titleFoBody}
     </div>
 };

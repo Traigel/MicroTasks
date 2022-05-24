@@ -5,7 +5,7 @@ type HeaderPropsType = {
 }
 
 export const Header = (props: HeaderPropsType) => {
-    return <div className="App">
+    return <div>
         {props.titleFoHeader}
     </div>
 };
