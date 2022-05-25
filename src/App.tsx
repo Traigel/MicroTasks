@@ -6,6 +6,7 @@ import {Footer} from "./components/Footer";
 import {NewComponent} from "./components/NewComponent";
 import { Button } from './components/Button';
 import {UseState} from "./components/UseState";
+import {FilterComponent} from "./components/Filter";
 
 const App = () => {
 
@@ -26,6 +27,7 @@ const App = () => {
         <Button name={'Two button'} callBack={()=>buttonFoo('Alex', 23)}/>
         <Button name={'Stop'} callBack={buttonStopFoo}/>
         <UseState/>
+        <FilterComponent/>
     </div>;
 }
 
