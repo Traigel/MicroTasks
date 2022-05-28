@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FilterComponentDZ} from "./FilterDZ";
+import {FilterComponentDZ, FilterType} from "./FilterDZ";
 
 export const FilterComponent = () => {
 
@@ -28,7 +28,7 @@ export const FilterComponent = () => {
         correntMoney = money.filter((u) => u.banknots === 'Dollars');
     }
 
-    let onClickFilterHandler = (banknot: string) => {
+    let onClickFilterHandler = (banknot: FilterType) => {
         console.log(banknot)
         setFilter(banknot)
 

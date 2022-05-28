@@ -4,7 +4,7 @@ type FilterPropsType = {
     correntMoney: Array<CorrentMoneyType>,
     callBack: (a: FilterType)=>void
 }
-type FilterType = 'all' | 'rubls' | 'dollars';
+export type FilterType = 'all' | 'rubls' | 'dollars';
 type CorrentMoneyType = {
     banknots: string,
     value: number,
