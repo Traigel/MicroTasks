@@ -11,6 +11,7 @@ import {FullInput} from "./components/06/FullInput";
 import {InputComponent} from "./components/06/InputComponent";
 import {ButtonComponent} from "./components/06/ButtonComponent";
 import {FullInputComponent} from "./components/06/FullInputComponent";
+import {Examples} from "./examples/Examples";
 
 const App = () => {
 
@@ -65,6 +66,10 @@ const App = () => {
             <Body titleFoBody={'Hello I`m new Body'}/>
             <Footer titleFoFooter={'Hello I`m new Footer'}/>
         </div>
+
+        Examples:
+        <Examples/>
+
     </div>;
 }
 
